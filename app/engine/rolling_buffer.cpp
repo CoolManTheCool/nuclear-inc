@@ -60,6 +60,7 @@ std::unique_ptr<T[]> RollingBuffer<T>::getOrderedArray() const {
 
 template class RollingBuffer<double>;
 template class RollingBuffer<float>;
+template class RollingBuffer<bool>;
 template class RollingBuffer<int>;
 template class RollingBuffer<unsigned int>;
 template class RollingBuffer<std::string>;
