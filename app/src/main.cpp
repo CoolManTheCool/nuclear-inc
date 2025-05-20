@@ -24,8 +24,6 @@ int main() {
             Engine.setShouldClose(true);
         }
 
-        reactor.tick(ctx.deltaTime);
-
         double avDeltaTime;
         const std::vector<double>& frameTimes = Engine.getFrameTimes();
         for (const double& frameTime : frameTimes) {

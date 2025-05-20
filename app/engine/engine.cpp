@@ -24,7 +24,7 @@ Engine_T::Engine_T() : io(InitImGui()), style(ImGui::GetStyle()) {
     
     const GLFWvidmode* mode = glfwGetVideoMode(monitor);
 
-    window = glfwCreateWindow(mode->width, mode->height, "Nuclear Inc", monitor, nullptr);
+    window = glfwCreateWindow(mode->width, mode->height, "Coin Flip Simulation", monitor, nullptr);
     if (!window) abort();
 
     glfwMakeContextCurrent(window);
